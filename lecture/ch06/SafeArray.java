@@ -12,7 +12,7 @@ public class SafeArray {
   public int get(int index) {
     if (index >= 0 && index < length)
       return array[index];
-    
+
     return -1;
   }
 
